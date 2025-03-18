@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Cadastro</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <h1>Cadastro Cliente</h1>
+    <form>
+        <div class="Cadastro">
+            <label for="nome">Nome</label>
+            <input type="Nome" placeholder="Digite seu primeiro nome" id="nome">
+
+            <label for="sobrenome">Sobrenome</label>
+            <input type="Sobrenome" placeholder="Digite seu sobrenome" id="sobrenome">
+
+            <br>
+
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail" id="email">
+
+            <br>
+
+            <label for="Data">Data Nascimento </label>
+            <br>
+            <input type="date" value="dd/mm/yyyy" id="date">
+
+            <label for="cpf">CPF</label>
+            <input type="cpf" placeholder="Ex:000.000.000-0" id="cpf">
+
+            <br>
+
+            <label for="cep">CEP</label>
+            <input type="cep" placeholder="Digite seu CEP" id="cep">
+
+            <label for="complemento">Complemento</label>
+            <input type="complemento" placeholder="Ex:apartamento 3" id="complemento">
+
+            <br>
+
+            <label for="cidade">Cidade</label>
+            <input type="cidade" placeholder="Nome da cidade" id="cidade">
+
+            <label for="bairro">Bairro</label>
+            <input type="bairro" placeholder="Nome do bairro" id="bairro">
+
+            <br>
+
+            <label for="rua">Rua</label>
+            <input type="rua" placeholder="Nome da rua" id="rua">
+
+            <label for="numero residencia">Numero da Residência</label>
+            <input type="numero residencia" placeholder="N:" id="numero residencia">
+        </div>
+        <div>
+            <p>Trabalha?</p>
+            <label for="">Sim</label>
+            <input type="radio" name="btn" id="radio">
+
+            <br>
+
+            <label for="">Não</label>
+            <input type="radio" name="btn" id="radio">
+        </div>
+        <div>
+            <label for="criar senha">Criar Senha</label>
+            <br>
+            <input type="digite sua senha " placeholder="Digite sua senha" id="digite sua senha">
+            <br>
+            <label for="confirmar senha">Confirmar Senha</label>
+            <br>
+            <input type="confirmar senha" placeholder="Digite novamente sua senha" id="digite novamente sua senha">
+            <br>
+            <input type="button" value="Enviar">
+        </div>
+    </form>
+</body>
+
+</html>
